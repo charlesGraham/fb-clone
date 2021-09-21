@@ -33,7 +33,7 @@ function Header() {
 
             {/* center */}
             <div className="flex justify-center flex-grow">
-                <div>
+                <div className="flex  space-x-6 md:space-x-2">
                     <HeaderIcon Icon={HomeIcon} />
                     <HeaderIcon Icon={FlagIcon} />
                     <HeaderIcon Icon={PlayIcon} />
